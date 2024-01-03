@@ -8,7 +8,7 @@ let oneEuroIs = {
 
 // Function to convert from Euro to Dollar
 function fromEuroToDollar(amountInEuro) {
-    // Convert directly using the exchange rate
+    // Convertion using the exchange rate
     let amountInDollar = amountInEuro * oneEuroIs["USD"];
     return amountInDollar;
   }
